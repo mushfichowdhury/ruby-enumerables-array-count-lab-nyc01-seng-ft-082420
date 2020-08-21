@@ -7,7 +7,7 @@ def count_strings(array)
     end
     index += 1 
   end
-  puts new_array.count 
+  return new_array.size 
 end
 
 def count_empty_strings(array)
