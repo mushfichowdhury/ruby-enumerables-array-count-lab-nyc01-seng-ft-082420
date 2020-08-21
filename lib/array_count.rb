@@ -1,11 +1,11 @@
 def count_strings(array)
-  count = 0 
+  index = 0 
   new_array = []
-  while count < array.count do 
-    if array.select { |num| num.class == String}
-      new_array << num
+  while index < array.count do
+    if array.select { |array[index]| array[index].class == String}
+      new_array << array[index]
     end
-    count += 1 
+    index += 1 
   end
   puts new_array.count 
 end
