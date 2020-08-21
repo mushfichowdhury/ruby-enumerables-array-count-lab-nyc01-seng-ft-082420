@@ -7,8 +7,8 @@ def count_strings(array)
       new_array << array[index]
     end
     index += 1 
-    count += 1 
   end
+  count += 1 
   puts new_array.count
 end
 
