@@ -2,7 +2,7 @@ def count_strings(array)
   index = 0 
   new_array = []
   while index < array.count do
-    if array.select { |array[index]| array[index].class == String}
+    if array[index].class == String
       new_array << array[index]
     end
     index += 1 
