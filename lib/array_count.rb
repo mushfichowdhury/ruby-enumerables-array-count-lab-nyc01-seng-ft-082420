@@ -1,5 +1,5 @@
 def count_strings(array)
-  array.select do {
+  array.select {
 end
 
 def count_empty_strings(array)
