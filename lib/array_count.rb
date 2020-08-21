@@ -11,7 +11,15 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  
+  index = 0 
+  new_array = []
+  while index < array.count do
+    if array[index] == ""
+      new_array << array[index]
+    end
+    index += 1 
+  end
+  return new_array.size 
 end
 
 
