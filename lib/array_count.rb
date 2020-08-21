@@ -1,5 +1,8 @@
 def count_strings(array)
-  array.select { |num| num.class == String}
+  count = 0 
+  while count < array.count do 
+    if array.select { |num| num.class == String}
+      
 end
 
 def count_empty_strings(array)
