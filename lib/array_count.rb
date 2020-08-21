@@ -1,15 +1,5 @@
 def count_strings(array)
-  count = 0 
-  new_array = []
-  while count < array.count do 
-    index = 0 
-    if array[index].class == String 
-      new_array << array[index]
-    end
-    index += 1 
-  end
-  count += 1 
-  puts new_array.count
+  array.select do {
 end
 
 def count_empty_strings(array)
